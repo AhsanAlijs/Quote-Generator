@@ -1,0 +1,8 @@
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+.quote-area i:last-child{
+    display: flex;
+    margin: 0 0 3px 10px;
+    align-items: flex-end;
+}
