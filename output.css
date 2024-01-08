@@ -556,20 +556,28 @@ video {
   position: relative;
 }
 
-.m-\[\] {
-  margin: ;
-}
-
 .m-\[35px\] {
   margin: 35px;
 }
 
-.mb-\[0\] {
-  margin-bottom: 0;
+.mt-\[\] {
+  margin-top: ;
 }
 
-.mb-\[10px\] {
-  margin-bottom: 10px;
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.mt-\[px\] {
+  margin-top: px;
+}
+
+.mt-\[0px\] {
+  margin-top: 0px;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
 }
 
 .block {
@@ -592,28 +600,16 @@ video {
   display: none;
 }
 
-.min-h-\[\] {
-  min-height: ;
-}
-
 .min-h-\[100vh\] {
   min-height: 100vh;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[50\] {
-  width: 50;
-}
-
-.w-\[605\] {
-  width: 605;
-}
-
 .w-\[605px\] {
   width: 605px;
+}
+
+.w-\[\] {
+  width: ;
 }
 
 .border-collapse {
@@ -628,6 +624,10 @@ video {
   resize: both;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
@@ -636,12 +636,20 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
 .break-words {
   overflow-wrap: break-word;
 }
 
-.rounded-\[\] {
-  border-radius: ;
+.break-all {
+  word-break: break-all;
 }
 
 .rounded-\[15px\] {
@@ -652,45 +660,29 @@ video {
   border-width: 1px;
 }
 
-.bg-\[\] {
-  background-color: ;
+.border-t {
+  border-top-width: 1px;
 }
 
-.bg-\[\#974996\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(151 73 150 / var(--tw-bg-opacity));
+.border-t-2 {
+  border-top-width: 2px;
 }
 
-.bg-\[\#d57b97\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(213 123 151 / var(--tw-bg-opacity));
+.border-t-\[1px\] {
+  border-top-width: 1px;
 }
 
-.bg-\[\#011446\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(1 20 70 / var(--tw-bg-opacity));
+.border-\[\] {
+  border-color: ;
 }
 
-.bg-\[\#fff\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+.border-\[\#ccc\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(204 204 204 / var(--tw-border-opacity));
 }
 
-.bg-\[\#8ff4fe\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(143 244 254 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#8ff5fecc\] {
-  background-color: #8ff5fecc;
-}
-
-.bg-\[\#8ff5fe49\] {
-  background-color: #8ff5fe49;
-}
-
-.bg-\[\#8ff5fe71\] {
-  background-color: #8ff5fe71;
+.border-t-\[1\] {
+  border-top-color: 1;
 }
 
 .bg-\[\#effafc\] {
@@ -702,52 +694,20 @@ video {
   background-image: url('/img/hero-pattern.svg');
 }
 
-.bg-\[url\(\)\] {
-  background-image: url();
-}
-
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
-.bg-\[url\(\'bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\]\'\)\] {
-  background-image: url('bg-[url('/img/hero-pattern.svg')]');
-}
-
-.bg-\[url\(\'http\:\/\/wallpapercave\.com\/wp\/vh5ysoL\.jpg\'\)\] {
-  background-image: url('http://wallpapercave.com/wp/vh5ysoL.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/4\.bp\.blogspot\.com\/-n-rV-fF2-vA\/V0RqmAN4pBI\/AAAAAAAAK2M\/I6btAd8JoaY_BLpcForZzorg4pOhCQHXwCLcB\/s1600\/cobblestone-sidewalk-at-night-light-photography-1920x1200-wallpaper136975\.jpg\'\)\] {
-  background-image: url('https://4.bp.blogspot.com/-n-rV-fF2-vA/V0RqmAN4pBI/AAAAAAAAK2M/I6btAd8JoaY_BLpcForZzorg4pOhCQHXwCLcB/s1600/cobblestone-sidewalk-at-night-light-photography-1920x1200-wallpaper136975.jpg');
-}
-
 .bg-\[url\(\'https\:\/\/eskipaper\.com\/images\/background-images-5\.jpg\'\)\] {
   background-image: url('https://eskipaper.com/images/background-images-5.jpg');
 }
 
-.p-\[\] {
-  padding: ;
+.bg-cover {
+  background-size: cover;
 }
 
-.p-\[30px\] {
-  padding: 30px;
+.bg-repeat {
+  background-repeat: repeat;
 }
 
-.pt-\[30px\] {
-  padding-top: 30px;
-}
-
-.pr-\[\] {
-  padding-right: ;
-}
-
-.pr-\[30px\] {
-  padding-right: 30px;
-}
-
-.pb-\[\] {
-  padding-bottom: ;
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .pb-\[25px\] {
@@ -758,36 +718,56 @@ video {
   padding-left: 30px;
 }
 
-.text-center {
-  text-align: center;
+.pt-\[30px\] {
+  padding-top: 30px;
 }
 
-.font-\[\] {
-  font-family: ;
+.pt-\[\] {
+  padding-top: ;
+}
+
+.pt-\[20px\] {
+  padding-top: 20px;
+}
+
+.pr-\[\] {
+  padding-right: ;
+}
+
+.pr-\[10px\] {
+  padding-right: 10px;
+}
+
+.pr-\[20px\] {
+  padding-right: 20px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-\[Poppins\] {
   font-family: Poppins;
 }
 
-.text-\[35px\] {
-  font-size: 35px;
+.text-\[15px\] {
+  font-size: 15px;
 }
 
 .text-\[22px\] {
   font-size: 22px;
 }
 
-.text-\[15px\] {
-  font-size: 15px;
+.text-\[35px\] {
+  font-size: 35px;
 }
 
 .font-\[600\] {
   font-weight: 600;
 }
 
-.text-\[\] {
-  color: ;
+.italic {
+  font-style: italic;
 }
 
 .underline {
@@ -798,70 +778,14 @@ video {
   outline-style: solid;
 }
 
-.first\:mt-\[\]:first-child {
-  margin-top: ;
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.first\:mt-\[0\]:first-child {
-  margin-top: 0;
-}
-
-.first\:mr-\[\]:first-child {
-  margin-right: ;
-}
-
-.first\:mr-\[0\]:first-child {
-  margin-right: 0;
-}
-
-.first\:mt-\[3px\]:first-child {
-  margin-top: 3px;
-}
-
-.first\:mr-\[10px\]:first-child {
-  margin-right: 10px;
-}
-
-.first\:ml-\[\]:first-child {
-  margin-left: ;
-}
-
-.first\:ml-\[0\]:first-child {
-  margin-left: 0;
-}
-
-.first\:mb-\[0\]:first-child {
-  margin-bottom: 0;
-}
-
-.last\:ml-\[0\]:last-child {
-  margin-left: 0;
-}
-
-.last\:ml-\[3\]:last-child {
-  margin-left: 3;
-}
-
-.last\:ml-\[3px\]:last-child {
-  margin-left: 3px;
-}
-
-.last\:mt-\[0px\]:last-child {
-  margin-top: 0px;
-}
-
-.last\:mr-\[0px\]:last-child {
-  margin-right: 0px;
-}
-
-.last\:flex:last-child {
-  display: flex;
-}
-
-.last\:flex-col-reverse:last-child {
-  flex-direction: column-reverse;
-}
-
-.last\:justify-end:last-child {
-  justify-content: flex-end;
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }

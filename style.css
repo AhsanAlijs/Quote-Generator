@@ -6,3 +6,49 @@
     margin: 0 0 3px 10px;
     align-items: flex-end;
 }
+
+.content .author{
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+
+}
+
+.author .span:first-child{
+    margin: -7px 5px 0 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    color: #4ac1ce;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 50%;
+    border:2px solid #add1e7;
+    transition: all 0.30s ease;
+}
+
+ul li:hover{
+    background:#4ac1ce;
+    color: white;
+}
+
+button{
+    padding: 13px 22px;
+    border-radius: 30px;
+    color:#ffffff ;
+    background:#4ac1ce ;
+}
+
+button .loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
