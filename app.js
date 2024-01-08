@@ -4,9 +4,6 @@ const quoteButton = document.querySelector('button');
 const soundbtn = document.querySelector('.sound');
 const copybtn = document.querySelector('.copy');
 const twitterbtn = document.querySelector('.twitter');
-
-
-
 quoteButton.addEventListener('click', () => {
     quoteButton.classList.add('loading');
     quoteButton.innerText = "Loading Quotes..."
@@ -19,19 +16,14 @@ quoteButton.addEventListener('click', () => {
         console.log(error);
     })
 })
-
 soundbtn.addEventListener('click', () => {
     let utterance = new SpeechSynthesisUtterance(`${quotetext.innerHTML}  by ${authorName.innerText}`);
     speechSynthesis.speak(utterance);
 });
-
-
 copybtn.addEventListener('click', () => {
     navigator.clipboard.writeText(`${quotetext.innerHTML}`);
 });
-
 twitterbtn.addEventListener('click', () => {
     let twitterUrl = `https://twitter.com/intent/tweet?url=${quotetext.innerHTML}`
     window.open(twitterUrl, "_blank");
 });
-
